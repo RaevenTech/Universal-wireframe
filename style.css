@@ -1,7 +1,12 @@
-html{
+body{
   user-select: none;
-  box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  border:none;
-
 }
+
+.navbar-brand{
+  color: green;
+}
+#hero {
+  border-bottom: 1px solid black;
+}
+
+
