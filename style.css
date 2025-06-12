@@ -5,9 +5,9 @@ body{
 /*-----    Hero   -----------*/
 #hero {
   border-bottom: 1px solid rgb(223, 223, 223);
-  box-shadow: 0px 15px 10px -15px #bababa;
+  box-shadow: 0px 15px 10px -15px #9c9c9c;
   min-height: 400px;
-  padding: 120px 20px 50px;  /* Increased top padding to account for fixed navbar */
+  padding: 120px 0px 50px;  /* Increased top padding to account for fixed navbar */
   text-align: center;
   display: flex;
   justify-content: center;
@@ -72,7 +72,7 @@ body{
 
 /*-----    About Section   -----------*/
 .about-section {
-  padding: 80px 0;
+  padding: 80px 0px 0px 0px;
   background-color: #fff;
 }
 
@@ -108,7 +108,7 @@ body{
 }
 
 .about-content {
-  padding: 20px;
+  padding: 0px;
 }
 
 .about-title {
@@ -222,6 +222,15 @@ body{
 }
 
 /*-----    About Section End   -----------*/
+
+/*-----    More About BID   -----------*/
+
+.operations,.precinct{
+  padding: 50px;
+}
+/*-----    More About BID End   -----------*/
+
+
 
 /*-----    Footer   -----------*/
 .footer {
