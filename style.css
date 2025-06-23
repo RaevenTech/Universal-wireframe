@@ -1,6 +1,42 @@
-body{
+body {
   user-select: none;
-  overflow-x: hidden;
+  
+}
+
+/* Minor visual overrides */
+img.rounded {
+  border-radius: 8px;
+}
+img.shadow, .shadow, .shadow-sm {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+.bg-dark {
+  background-color: #212529 !important;
+}
+.text-secondary {
+  color: #6c757d !important;
+}
+.text-light {
+  color: #fff !important;
+}
+.fw-bold {
+  font-weight: 700 !important;
+}
+.fw-semibold {
+  font-weight: 600 !important;
+}
+.display-4 {
+  font-size: 2.5rem;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+footer {
+  margin-top: 60px;
 }
 
 /* Container fluid padding for mobile */
