@@ -1,0 +1,13 @@
+.todo-visit-links{
+  display: flex;
+}
+
+.todo-visit-link{
+  font-weight: 500;
+  color: black;
+}
+
+.todo-visit-link:hover{
+  color: white;
+  background-color: #6c757d;
+}
