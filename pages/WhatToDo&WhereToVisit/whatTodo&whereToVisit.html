@@ -12,8 +12,8 @@
   <main>
     <!------------ Navbar -------------->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Universal Wireframe</a>
+      <div class="container-fluid">
+        <a class="navbar-brand" style="margin-left: 100px;" href="#">Universal Wireframe</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,7 +34,7 @@
                 <li><a class="dropdown-item" href="#">Page 11</a></li>
                 <li><a class="dropdown-item" href="#">Page 12</a></li>
               </ul>
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" style="margin-right: 100px;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Pages
               </a>
             </li>
@@ -45,9 +45,9 @@
     <!------------ Navbar -------------->
 
     <!------------ Hero Section -------------->
-    <div id="hero" class="hero container-fluid pt-5 text-center" style="height: 350px;">
+    <div id="hero" class="hero container-fluid">
       <div class="hero-contents">
-        <h1 class="hero-company-name mt-5 ">What To Do & Where To Visit</h1>
+        <h1 class="hero-company-name">What To Do & Where To Visit</h1>
         <p class="hero-desctription"> Add blub here</p>
       </div>
     </div>
@@ -55,24 +55,24 @@
 
     <!------------ Page Navigation Links -------------->
     <section>
-      <div id="todo-visit-page-links" class="container">
-        <div class="row todo-visit-links">
-          <div class="col-sm todo-visit-link text-center py-3 px-0 ">
+      <div id="todo-visit-page-links" class="container my-3">
+        <div class="row g-2 todo-visit-links flex-wrap justify-content-center">
+          <div class="col-6 col-sm-4 col-md-2 todo-visit-link text-center py-2 px-0">
             <a href="#arts">Arts</a>
           </div>
-          <div class="col-sm todo-visit-link text-center py-3 px-0">
+          <div class="col-6 col-sm-4 col-md-2 todo-visit-link text-center py-2 px-0">
             <a href="#culture">Culture</a>
           </div>
-          <div class="col-sm todo-visit-link text-center py-3 px-0">
-            <a href="#resturants">Resturants</a>
+          <div class="col-6 col-sm-4 col-md-2 todo-visit-link text-center py-2 px-0">
+            <a href="#restaurants">Restaurants</a>
           </div>
-          <div class="col-sm todo-visit-link text-center py-3 px-0">
-            <a href="#pubs/bars">Pubs/Bars</a>
+          <div class="col-6 col-sm-4 col-md-2 todo-visit-link text-center py-2 px-0">
+            <a href="#pubs-bars">Pubs/Bars</a>
           </div>
-          <div class="col-sm todo-visit-link text-center py-3 px-0">
+          <div class="col-6 col-sm-4 col-md-2 todo-visit-link text-center py-2 px-0">
             <a href="#nightlife">Nightlife</a>
           </div>
-          <div class="col-sm todo-visit-link text-center py-3 px-0">
+          <div class="col-6 col-sm-4 col-md-2 todo-visit-link text-center py-2 px-0">
             <a href="#markets">Markets</a>
           </div>
         </div>
@@ -81,12 +81,12 @@
     <!------------ Page Navigation Links -------------->
 
     <!------------ Page section Arts -------------->
-    <div class="container text-center py-5">
+    <div id="arts" class="container text-center py-5">
       <h2 class="section-title mb-5" style="text-decoration: underline;"> Arts </h2>
-      <div class="row align-items-start">
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+      <div class="row g-4 align-items-stretch">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -102,9 +102,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -120,9 +120,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -138,9 +138,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -161,12 +161,12 @@
     <!------------ Page section Arts -------------->
 
     <!------------ Page section Culture -------------->
-    <div class="container text-center py-5">
+    <div id="culture" class="container text-center py-5">
       <h2 class="section-title mb-5" style="text-decoration: underline;"> Culture </h2>
-      <div class="row align-items-start">
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+      <div class="row g-4 align-items-stretch">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -182,9 +182,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -200,9 +200,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -218,9 +218,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -240,13 +240,13 @@
     </div>
     <!------------ Page section Culture -------------->
 
-    <!------------ Page section Restaurants -------------->
-    <div class="container text-center py-5">
-      <h2 class="section-title mb-5" style="text-decoration: underline;"> Restaurants </h2>
-      <div class="row align-items-start">
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+    <!------------ Page section Resturants -------------->
+    <div id="restaurants" class="container text-center py-5">
+      <h2 class="section-title mb-5" style="text-decoration: underline;"> Resturants </h2>
+      <div class="row g-4 align-items-stretch">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -262,9 +262,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -280,9 +280,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -298,9 +298,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -318,15 +318,15 @@
         </div>
       </div>
     </div>
-    <!------------ Page section Restaurants -------------->
+    <!------------ Page section Resturants -------------->
 
     <!------------ Page section Pubs/Bars -------------->
-    <div class="container text-center py-5">
+    <div id="pubs-bars" class="container text-center py-5">
       <h2 class="section-title mb-5" style="text-decoration: underline;"> Pubs/Bars </h2>
-      <div class="row align-items-start">
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+      <div class="row g-4 align-items-stretch">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -342,9 +342,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -360,9 +360,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -378,9 +378,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -401,12 +401,12 @@
     <!------------ Page section Pubs/Bars -------------->
 
     <!------------ Page section Nightlife -------------->
-    <div class="container text-center py-5">
+    <div id="nightlife" class="container text-center py-5">
       <h2 class="section-title mb-5" style="text-decoration: underline;"> Nightlife  </h2>
-      <div class="row align-items-start">
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+      <div class="row g-4 align-items-stretch">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -422,9 +422,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -440,9 +440,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -458,9 +458,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -481,12 +481,12 @@
     <!------------ Page section Nightlife  -------------->
 
     <!------------ Page section Markets -------------->
-    <div class="container text-center py-5">
+    <div id="markets" class="container text-center py-5">
       <h2 class="section-title mb-5" style="text-decoration: underline;"> Markets  </h2>
-      <div class="row align-items-start">
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+      <div class="row g-4 align-items-stretch">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -502,9 +502,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -520,9 +520,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -538,9 +538,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" aria-hidden="true">
-            <img src="/assets/placeholder-image.png" class="card-img-top" alt="...">
+        <div class="col-12 col-sm-6 col-lg-3 d-flex">
+          <div class="card w-100 h-100" aria-hidden="true">
+            <img src="/assets/placeholder-image.png" class="card-img-top img-fluid" alt="...">
             <div class="card-body text-start">
               <h5 class="card-title placeholder-glow">
                 <span class="placeholder col-6"></span>
@@ -562,7 +562,7 @@
   </main>
   
     <!------------ Footer Section -------------->
-    <footer class="footer">
+    <footer class="footer mt-auto pt-4 bg-dark text-light">
       <div class="container">
         <div class="row">
           <!-- Copyright Section -->
@@ -573,20 +573,20 @@
           <!-- Quick Links -->
           <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
             <h5 class="footer-heading">Quick Links</h5>
-            <ul class="footer-links">
-              <li><a href="#" data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy Policy</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+            <ul class="footer-links list-unstyled">
+              <li><a href="#" data-bs-toggle="modal" data-bs-target="#privacyModal" class="text-light">Privacy Policy</a></li>
+              <li><a href="faq.html" class="text-light">FAQ</a></li>
+              <li><a href="contact.html" class="text-light">Contact Us</a></li>
             </ul>
           </div>
           <!-- Social Media Links -->
           <div class="col-lg-4 col-md-6">
             <h5 class="footer-heading">Connect With Us</h5>
-            <div class="social-links">
-              <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" class="social-link" aria-label="X (formerly Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
-              <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <div class="social-links d-flex gap-2">
+              <a href="#" class="social-link text-light" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link text-light" aria-label="X (formerly Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#" class="social-link text-light" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-link text-light" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
         </div>
