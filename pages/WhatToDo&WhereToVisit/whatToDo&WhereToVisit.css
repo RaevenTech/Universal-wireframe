@@ -11,3 +11,10 @@
   color: white;
   background-color: #6c757d;
 }
+
+#hero {
+  background-image: url('../../assets/placeholder-image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

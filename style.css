@@ -52,6 +52,13 @@ footer {
 
 /*-----    Hero   -----------*/
 #hero {
+  background-image: url('../../assets/placeholder-image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hero {
   border-bottom: 1px solid rgb(223, 223, 223);
   box-shadow: 0px 15px 10px -15px #9c9c9c;
   min-height: 400px;
