@@ -50,6 +50,13 @@ footer {
   padding-right: 15px;
 }
 
+/*-----    Navbar   -----------*/
+.dropdown-item:hover{
+  color: white;
+  background-color: #6c757d ;
+}
+/*-----    Navbar   -----------*/
+
 /*-----    Hero   -----------*/
 #hero {
   background-image: url('../../assets/placeholder-image.png');
